@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Neumorphism Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            align-items: space-between;
+            justify-content: space-between;
+            width: 100%;
+            height: 60px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            background-color: #ebf5fc;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            padding: 10px 25px;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            position: relative;
+            display: inline;
+            margin: 5px 10px;
+            padding: 5px;
+            border: none;
+            outline: none;
+            box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.05),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+                5px 5px 5px rgba(0, 0, 0, 0.05),
+                -5px -5px 5px rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+            padding: 10px 20px;
+            margin: auto 15px auto 15px;
+            text-align: center;
+        }
+        nav ul li a {
+        /*    margin: 1px;
+            padding: 3px 6px;
+            border: none;
+            box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.05),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+                5px 5px 5px rgba(0, 0, 0, 0.05),
+                -5px -5px 5px rgba(255, 255, 255, 0.5);
+            border-radius: 15px; */
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.20);    
+        }
+        i{
+            margin-right: 5px;
+        }
+        li:hover i,button:hover i{
+            color: rgba(0,0,0,0.3);
+        }
+        nav button {
+            height: 37.8px;
+            width: 120px;
+            border: none;
+            outline: none;
+            padding: 5px;
+            color: rgba(0, 0, 0, 0.20);
+            background-color: #ebf5fc;
+            box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.05),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+                5px 5px 5px rgba(0, 0, 0, 0.05),
+                -5px -5px 5px rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+        button i{
+            margin-left: 5px; 
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav">
+        <ul >
+            <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fab fa-servicestack"></i> Services</a></li>
+            <li><a href="#"><i class="fas fa-code"></i> Project</a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i> About Us</a></li>
+            <li><a href="#"><i class="fas fa-phone-square-alt"></i> Contact us</a></li>
+        </ul>
+        <button type="button" class="sign_in">Sign in <i class="fas fa-pencil-alt"></i></button>
+    </nav>
+
+
+    <script src="https://kit.fontawesome.com/6484246b2d.js"></script>
+</body>
+
+</html>
