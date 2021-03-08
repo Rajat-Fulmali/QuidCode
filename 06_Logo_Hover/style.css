@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    z-index: 2;
+    margin: 0 10px 0 10px;
+}
+.logo:hover{
+    box-shadow: 20px 30px 70px rgba(0,0,0,0.4);
+}
+.container .back{
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.logo a{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: 10px 20px 50px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.logo a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 120px;
+}
+.container .logo.logo1:hover ~ .back,
+.container .logo.logo1 a:hover{
+    opacity: 1;
+    background-color: rgb(24, 119, 242);
+    color: white;
+}
+.container .logo.logo2:hover ~ .back,
+.container .logo.logo2 a:hover{
+    opacity: 1;
+    background-color: Red;
+    color: white;
+}
+.container .logo.logo3:hover ~ .back,
+.container .logo.logo3 a:hover{
+    opacity: 1;
+    background-color: rgb(29, 161, 242);
+    color: white;
+}
+.container .logo.logo4:hover ~ .back,
+.container .logo.logo4 a:hover{
+    opacity: 1;
+    background-color: rgb(37, 211, 102);
+    color: white;
+}
+.container .logo.logo5:hover ~ .back,
+.container .logo.logo5 a:hover{
+    opacity: 1;
+    background-color: rgb(10, 102, 194);
+    color: white;
+}
+.container .logo.logo6:hover ~ .back,
+.container .logo.logo6 a:hover{
+    opacity: 1;
+    background-color: #dd4b39;
+    color: white;
+}

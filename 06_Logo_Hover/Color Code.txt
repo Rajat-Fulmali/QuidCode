@@ -1,0 +1,6 @@
+Facebook: rgb(24, 119, 242);
+Youtube: Red
+Twitter: rgb(29, 161, 242);
+Whatsapp: rgb(37, 211, 102);
+Linkedin: rgb(10, 102, 194);
+Google+: #dd4b39;
